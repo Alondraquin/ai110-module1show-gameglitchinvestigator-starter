@@ -25,9 +25,11 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
+- [ ] Describe the game's purpose.The games purpose is to let the player guess a number depending the range of difficulty the player chose. When the player guesses the right number the player wins the game.
 - [ ] Detail which bugs you found.
+ I found three bugs within the game. One was the hints would lead the player in the wrong direction. The second bug I found was that it wouldnt let the player start a new game after a win or loss. The third bug I found was that the guess histroy was delayed by 1.
 - [ ] Explain what fixes you applied.
+for the first one we changed the logic of the if statments and took off the try and catch exception because it would change the guess into a string and would cause the error. The second bug we added new starting credentials so that the game starts with a clean slate. For the third one we moved the expander to be at the end of the block.
 
 ## 📸 Demo Walkthrough
 
@@ -43,11 +45,7 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 
 ## 🧪 Test Results
 
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 
