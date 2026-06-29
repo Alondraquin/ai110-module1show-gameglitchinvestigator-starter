@@ -35,11 +35,11 @@ for the first one we changed the logic of the if statments and took off the try 
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1.Choose a difficulty in the left sidebar — Easy (1–20, 6 attempts), Normal (1–100, 8 attempts), or Hard (1–50, 5 attempts). The sidebar shows your number range and attempts.
+2.Type a number into the "Enter your guess:" box and click Submit Guess. The secret number now stays the same across guesses instead of resetting every time.
+3.Read the hint — with "Show hint" checked, the game correctly says "Too High" or "Too Low" so each guess points you in the right direction, while your score and guess history update.
+4.Keep guessing until you win — guess the secret to trigger the balloons and see your final score, or the game ends and reveals the secret if you run out of attempts.
+5.Click New Game to start fresh — a new secret, zeroed attempts and score, and empty history, so you can play again after a win or loss
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
