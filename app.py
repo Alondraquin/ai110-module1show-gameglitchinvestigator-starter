@@ -159,7 +159,7 @@ if submit:
                     f"Score: {st.session_state.score}"
                 )
 
-with st.expander("Developer Debug Info"):#✅
+with st.expander("Developer Debug Info"):#✅ we moved the expander to be at the end of the block
     st.write("Secret:", st.session_state.secret)
     st.write("Attempts:", st.session_state.attempts)
     st.write("Score:", st.session_state.score)

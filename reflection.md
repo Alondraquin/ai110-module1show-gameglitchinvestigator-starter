@@ -35,21 +35,27 @@ I asked my Ai helper why the game kept on leading me away from the number with i
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+I desided the bug was fixed once the pytest became green. Another way I new the bug was fixed by playing the game
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  One test that I did was testing if the game would say the guess was too low when the player guessedd 40 and 50 was the secret number. Another way I tested it was by playing the game myself and seeing if it lead me to the correct number.
 - Did AI help you design or understand any tests? How?
+Yes I have never done or ran any pytest before in my coding experience so there were many times I reference AI to tell me waht everything meant.
 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
-- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit? 
+Streamlit re-runs your whole script every time you click anything, so normal variables forget everything session_state is the box you stash things in so they survive those re-runs.
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
+A habit from this project that i will implement form now on is starting a new chat for each bug and creating pytest for my code.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
+One thing I would do differently is to is make sure I double check what the Ai is changing. There was a moment I trusted the AI and it ended up changing somthing completly not related
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+Before doing this project I wasnt expecting for the AI to do as well as it did and expect for there to be error that I would have to fix myself. I was plesently surprised how well it did.
